@@ -1,0 +1,13 @@
+class Solution
+{
+    public:
+    void display(Node *head)
+    {
+      Node *ptr=head;
+      while(ptr)
+      {
+          cout<<ptr->data<<" ";
+          ptr=ptr->next;
+      }
+    }
+};
