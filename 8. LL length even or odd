@@ -1,0 +1,16 @@
+int isLengthEvenOrOdd(struct Node* head)
+{
+     Node *ptr=head; int x=0;
+     if(head==NULL) return 0;
+     else
+     {
+         while(ptr)
+         {
+             ptr=ptr->next;
+             x++;
+         }
+     }
+     if((x)%2==0)
+     return 0;
+     else return 1;
+}
